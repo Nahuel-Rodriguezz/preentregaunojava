@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculador de Costos</title>
+</head>
+<body>
+    <h1>Calculador de Costos</h1>
+    <form id="cost-form">
+        <label>
+            <input type="checkbox" name="product" value="10"> Producto 1 (€10)
+        </label><br>
+        <label>
+            <input type="checkbox" name="product" value="20"> Producto 2 (€20)
+        </label><br>
+        <label>
+            <input type="checkbox" name="product" value="30"> Producto 3 (€30)
+        </label><br>
+        <label>
+            <input type="checkbox" name="service" value="15"> Servicio 1 (€15)
+        </label><br>
+        <label>
+            <input type="checkbox" name="service" value="25"> Servicio 2 (€25)
+        </label><br>
+        <label>
+            <input type="checkbox" name="service" value="35"> Servicio 3 (€35)
+        </label><br>
+        <button type="submit">Calcular</button>
+    </form>
+    <div id="results">
+        <h2>Resultados</h2>
+        <p id="total-cost"></p>
+    </div>
+
+    <!-- Incluir el archivo JavaScript al final del cuerpo -->
+    <script src="js/index.js"></script>
+</body>
+</html>
+
